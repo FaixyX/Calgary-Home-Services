@@ -4095,3 +4095,31 @@ img {
     background-image: url("../Home.jpeg"); /* Loops back to first image */
   }
 }
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebb61;
+}
+
+/* WhatsApp icon style */
+.whatsapp-button img {
+  width: 24px;
+  height: 24px;
+}
