@@ -3292,9 +3292,9 @@ img {
 }
 
 .services-image {
-  max-height: 100%;
+  max-height: 80%;
   object-fit: contain;
-  transform: translate(0, -20px);
+  transform: translate(0, 85px);
 }
 
 .services-cards {
@@ -3944,7 +3944,7 @@ img {
 
   .services-image {
     max-height: none;
-    max-width: 100%;
+    max-width: 105%;
   }
 
   .services-image-wrapper {
