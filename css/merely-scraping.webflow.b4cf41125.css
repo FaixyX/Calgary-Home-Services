@@ -4100,7 +4100,7 @@ img {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #25d366;
+  background-color: #3898ec;
   color: white;
   padding: 15px 20px;
   text-align: center;
@@ -4115,7 +4115,7 @@ img {
 }
 
 .whatsapp-button:hover {
-  background-color: #1ebb61;
+  background-color: #2065a1;
 }
 
 /* WhatsApp icon style */
