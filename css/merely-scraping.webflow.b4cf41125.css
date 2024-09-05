@@ -4123,3 +4123,10 @@ img {
   width: 24px;
   height: 24px;
 }
+
+/* Hide the text on mobile screens (max-width: 600px) */
+@media (max-width: 600px) {
+  .whatsapp-button span {
+    display: none;
+  }
+}
