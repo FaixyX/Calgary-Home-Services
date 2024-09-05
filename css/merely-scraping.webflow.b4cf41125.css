@@ -4048,3 +4048,12 @@ img {
   font-style: normal;
   font-display: swap;
 }
+
+.section-hero {
+  background-image: url("../Home.jpeg"); /* Replace with your image URL */
+  background-size: cover; /* Ensures the image covers the entire section */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  opacity: 1;
+  z-index: -1;
+}
