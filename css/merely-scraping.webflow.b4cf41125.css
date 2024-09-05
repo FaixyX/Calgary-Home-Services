@@ -4052,6 +4052,7 @@ img {
 .header_section {
   position: relative;
   z-index: 1; /* Ensures the section content stays above the background */
+  overflow: hidden; /* Prevents overflow from the animation */
 }
 
 .header_section::before {
@@ -4061,16 +4062,39 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../Home.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0.5; /* Adjust the opacity of the background image */
   z-index: -1; /* Keeps the background image behind the content */
   pointer-events: none; /* Ensures the background does not affect interaction */
+
+  /* Animation */
+  animation: changeBackground 15s infinite;
 }
 
 .header_section * {
   position: relative; /* Keeps content above the pseudo-element */
   z-index: 2; /* Ensures text and other elements are fully visible */
+}
+
+@keyframes changeBackground {
+  0% {
+    background-image: url("../Home.jpeg");
+  }
+  20% {
+    background-image: url("../Home2.jpeg");
+  }
+  40% {
+    background-image: url("../Home3.jpeg");
+  }
+  60% {
+    background-image: url("../Home4.jpeg"); /* Loops back to first image */
+  }
+  80% {
+    background-image: url("../Home1.jpeg"); /* Loops back to first image */
+  }
+  100% {
+    background-image: url("../Home4.jpeg"); /* Loops back to first image */
+  }
 }
