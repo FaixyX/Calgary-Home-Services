@@ -4082,19 +4082,16 @@ img {
   0% {
     background-image: url("../Home.jpeg");
   }
-  20% {
+  25% {
     background-image: url("../Home2.jpeg");
   }
-  40% {
+  50% {
     background-image: url("../Home3.jpeg");
   }
-  60% {
+  75% {
     background-image: url("../Home4.jpeg"); /* Loops back to first image */
-  }
-  80% {
-    background-image: url("../Home1.jpeg"); /* Loops back to first image */
   }
   100% {
-    background-image: url("../Home4.jpeg"); /* Loops back to first image */
+    background-image: url("../Home.jpeg"); /* Loops back to first image */
   }
 }
