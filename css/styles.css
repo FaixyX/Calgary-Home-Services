@@ -4080,19 +4080,19 @@ img {
 
 @keyframes changeBackground {
   0% {
-    background-image: url("../Home.jpeg");
+    background-image: url("../images/Home.jpeg");
   }
   25% {
-    background-image: url("../Home2.jpeg");
+    background-image: url("../images/Home2.jpeg");
   }
   50% {
-    background-image: url("../Home3.jpeg");
+    background-image: url("../images/Home3.jpeg");
   }
   75% {
-    background-image: url("../Home4.jpeg"); /* Loops back to first image */
+    background-image: url("../images/Home4.jpeg"); /* Loops back to first image */
   }
   100% {
-    background-image: url("../Home.jpeg"); /* Loops back to first image */
+    background-image: url("../images/Home.jpeg"); /* Loops back to first image */
   }
 }
 
